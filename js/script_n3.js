@@ -38,7 +38,7 @@ function updateDOM(data) {
                 <td>${order.booking_id}</td>
                 <td>${order.user_id}</td>
                 <td>${coolieId}</td>
-                <td>${order.quoted_amount || ''}</td>
+                <td> ₹ ${order.quoted_amount || ''}</td>
                 <td>${order.luggage ? JSON.stringify(order.luggage) : ''}</td>
                 <td>${order.booking_recieved_at}</td>
                 <td>${order.selected_time || ''}</td>
