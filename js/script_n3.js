@@ -79,8 +79,8 @@ function getRowClass(status) {
     return rowClass;
 }
 
-// Replace with your actual base URL for API requests
-const BASE_URL = 'http://127.0.0.1:4500/api/v1/orders/';
+
+const BASE_URL = 'https://backend-kt-api-puce.vercel.app/api/v1/orders/';
 
 function url_status() {
     updateDataAndDOM(BASE_URL);
